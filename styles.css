@@ -1,0 +1,157 @@
+body {
+    background-color: rgb(251, 253, 254);
+    font-family: "Cormorant Garamond", serif;
+    align-items: center;
+    font-size: 18px;
+    margin: auto;
+    font-weight: 800;
+
+    @media { (min-max 400px, 800px)
+        display: none;
+    } 
+}
+
+
+.top-container {
+    margin: auto 250px;
+    text-align: center;  
+}
+
+.intro-text {
+    font-weight: 800;
+    font-size: 100px;
+    letter-spacing: 0.20rem;
+    margin-bottom: 0;
+}
+
+.description {
+    margin-bottom: 100px;
+    font-size: 20px;
+    letter-spacing:0.12rem;
+    font-weight: 500;
+
+}
+
+.middle-container {
+    margin: 0;
+    text-align: center;
+}
+ 
+.profile-pic {
+    width: 500px;
+    margin-left: 100px;
+    border-radius: 5%;
+    padding-bottom: 20px;
+}
+.about-me {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.bio {
+    display: inline-block;
+    text-align: left ;
+    line-height: 1.8;   
+}
+
+.personal {
+    margin-left: 50px;
+}
+
+.header-text {
+    display: inline-block;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 900;
+}
+
+.skills {
+    
+    text-align: center;
+    display: flex;
+    margin-top: 50px;
+}
+
+.sub-header {
+    font-size: 30px;
+    font-weight: 600; 
+}
+
+.skills-list {
+    margin-left: 350px; 
+}
+
+.ul-list {
+    margin-top: 30px;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.sample-work {
+    text-align: left;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+a {
+    color: rgb(10, 10, 10);
+    padding: 10px;
+}
+
+.sample-work-scroll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio {
+padding-left: 30px;
+text-align: center;
+display: grid;
+justify-content: center;
+}
+
+.project {
+    padding-left: 40px;
+    text-align: center;
+}
+
+.construction {
+    padding-left: 100px;
+    text-align: center;
+}
+
+.Tindog {
+    padding-left: 40px;
+    text-align: center;
+}
+
+.bottom-container {
+    background-color: rgb(134, 228, 162);
+    padding-bottom: 1rem;
+    text-align: center;
+    padding-top: auto;
+}
+
+.contact-links {
+    text-decoration: underline;
+}
+
+a:hover {
+    background-color: rgb(67, 63, 63);
+}
+
+.copyright {
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.contact-links {
+    padding-top: 10px;
+}
